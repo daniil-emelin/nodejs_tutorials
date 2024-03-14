@@ -1,0 +1,88 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+#note-form input,
+#note-form textarea,
+#note-form button {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  transition: background-color 0.3s ease;
+  font-family: inherit;
+}
+
+#note-form textarea {
+  resize: vertical;
+}
+
+#note-form button {
+  background-color: #66afe9;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#note-form button:hover {
+  background-color: #4a90e2;
+}
+
+#note-list {
+  border-top: 1px solid #ccc;
+}
+
+.note {
+  padding: 15px;
+  border-bottom: 1px solid #ccc;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.note:last-child {
+  border-bottom: none;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.actions button {
+  padding: 8px 15px;
+  font-size: 14px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.actions button:hover {
+  background-color: #e74c3c;
+  color: #fff;
+}

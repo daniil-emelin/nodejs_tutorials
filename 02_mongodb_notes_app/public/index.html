@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Уголок Фронтендера: приложение заметок NodeJS + MongoDB</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Приложение для заметок</h1>
+      <form id="note-form">
+        <input
+          name="author"
+          placeholder="Введите автора заметки"
+          required
+        />
+        <textarea
+          name="text"
+          placeholder="Введите текст заметки"
+          rows="5"
+          required
+        ></textarea>
+        <button id="submit-btn" type="submit">Отправить</button>
+      </form>
+      <div id="note-list">
+        <!-- Здесь будут отображаться заметки -->
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
